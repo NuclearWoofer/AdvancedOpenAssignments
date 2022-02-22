@@ -41,7 +41,7 @@ mongoose.connect('mongodb://localhost:27017/Empl',{
 })
 
 
-require('./models/Contact.Model')
+require('./models/contact.Model')
 
 var ContactData = mongoose.model('contact')
 
