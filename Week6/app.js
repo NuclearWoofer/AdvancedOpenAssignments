@@ -57,7 +57,7 @@ app.post('/saveContactEntry', (req,res)=>{
 })
 
 app.get('/', (req, res) => {
-    res.render('index', { title: 'Assignment #6 created by Timothy LeBrun' });
+    res.render('index', { title: 'Week 6 - Michael Lopez' });
 });
 
 app.get('/view', (req, res) => {
