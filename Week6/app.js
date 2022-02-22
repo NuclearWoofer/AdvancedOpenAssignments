@@ -32,7 +32,7 @@ app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({extended:true}))
 app.use(express.json())
 
-mongoose.connect('mongodb://localhost:27017/Empl',{
+mongoose.connect('mongodb://localhost:27017/employees',{
     useNewURLParser:true
 }).then(()=>{
     console.log("Connected to Database")
@@ -41,7 +41,7 @@ mongoose.connect('mongodb://localhost:27017/Empl',{
 })
 
 
-require('./models/contact.Model')
+require('./models/contact.Model.js')
 
 var ContactData = mongoose.model('contact')
 
