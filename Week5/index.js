@@ -1,3 +1,5 @@
+//gotta catch em all
+
 const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
@@ -7,18 +9,13 @@ const e = require('express')
 const { Router } = require('express')
 const {ObjectId} = require('mongodb')
 const moment = require('moment')
-
 const { JSDOM } = require( "jsdom" );
 const { window } = new JSDOM( "" );
 const $ = require( "jquery" )( window );
-
 var createError = require('http-errors');
-//var express = require('express');
-//var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require('cors')
-
 const exphbs = require('express-handlebars')
 
 
